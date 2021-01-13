@@ -5,7 +5,7 @@ endpoint = f"https://api.github.com/users/{github_user}/repos"
 
 repos = json.loads(requests.get(endpoint).text)
 
-print(repos)
+#print(repos)
 
 from collections import Counter
 from dateutil.parser import parse
@@ -18,3 +18,5 @@ last_5_repositories = sorted(repos,key=lambda r: r["pushed_at"],
 
 last_5_languages = [repo["language"]
                     for repo in last_5_repositories]
+
+print(last_5_languages)

@@ -57,3 +57,7 @@ for house_url, pr_links in press_releases.items():
         if paragraph_mentions(text,'data'):
             print(f"{house_url}")
             break
+
+            #10.4 정제하고 합치기
+            #이것이 데이터분석이다 ~2.2 나무위키
+            #

@@ -1,4 +1,6 @@
+#!/usr/bin/env python
 #egrep.py
+
 import sys, re
 
 # sys.argv는 커맨드 라인에서 사용할 수 있는 몯느 인자에 대한 리스트다.
